@@ -1,6 +1,25 @@
 {
   "name": "luciferdonghua.in",
-  "baseUrl": "luciferdonghua.in",
-  "description": "donghua provider.",
-  "version" 1
-}
+  "baseUrl": "http://luciferdonghua.in",
+  "homeUrl": "/",
+  "catalogs": [
+    {
+      "id": "home",
+      "name": "home",
+      "type": "movie"
+    }
+  ],
+  "search": {
+    "url": "/search?q={query}&page={page}",
+    "item": ".result-item",
+    "title": ".title",
+    "href": "a@href",
+    "poster": "img@src"
+  },
+  "detail": {
+    "title": "h1",
+    "poster": ".poster img@src",
+    "overview": ".desc",
+    "type": "movie"
+  }
+}  
