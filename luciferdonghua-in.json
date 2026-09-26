@@ -1,25 +1,9 @@
 {
-  "name": "luciferdonghua.in",
-  "baseUrl": "http://luciferdonghua.in",
-  "homeUrl": "/",
-  "catalogs": [
-    {
-      "id": "home",
-      "name": "home",
-      "type": "movie"
-    }
-  ],
-  "search": {
-    "url": "/search?q={query}&page={page}",
-    "item": ".result-item",
-    "title": ".title",
-    "href": "a@href",
-    "poster": "img@src"
-  },
-  "detail": {
-    "title": "h1",
-    "poster": ".poster img@src",
-    "overview": ".desc",
-    "type": "movie"
+  "name": "Lucifer Donghua",
+  "url": ["luciferdonghua.in/"],
+  "selectors": {
+    "episodes": ".episelist li > a",
+    "mirrors": ".mirror",
+    "sources": ["Dowload-MP4", "Rumble", "Vid Hide"]
   }
-}  
+ { 
