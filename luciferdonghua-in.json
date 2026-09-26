@@ -1,6 +1,6 @@
 {
   "name": "Lucifer Donghua",
-  "url": ["luciferdonghua.in/"],
+  "url": ["https://luciferdonghua.in/"],
   "selectors": {
     "episodes": ".episelist li > a",
     "mirrors": ".mirror",
